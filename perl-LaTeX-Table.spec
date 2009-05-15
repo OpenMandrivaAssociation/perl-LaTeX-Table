@@ -55,10 +55,9 @@ rm -rf %buildroot
 %files
 %defattr(-,root,root)
 %doc README Changes LICENSE
+%{_mandir}/man1/*
 %{_mandir}/man3/*
 %perl_vendorlib/*
 /usr/bin/csv2pdf
 /usr/bin/ltpretty
-/usr/share/man/man1/csv2pdf.1.lzma
-/usr/share/man/man1/ltpretty.1.lzma
 
