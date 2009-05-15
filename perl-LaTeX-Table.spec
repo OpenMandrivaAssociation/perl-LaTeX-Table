@@ -1,7 +1,7 @@
 
 %define realname   LaTeX-Table
 %define version    0.9.14
-%define release    %mkrel 1
+%define release    %mkrel 2
 
 Name:       perl-%{realname}
 Version:    %{version}
