@@ -1,5 +1,5 @@
 %define upstream_name    LaTeX-Table
-%define upstream_version v0.9.17
+%define upstream_version v1.0.0
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
