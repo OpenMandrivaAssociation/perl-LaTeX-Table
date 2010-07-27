@@ -14,12 +14,15 @@ Source0:    http://www.cpan.org/modules/by-module/LaTeX/%{upstream_name}-%{upstr
 BuildRequires: perl(Module::Pluggable)
 BuildRequires: perl(Moose)
 BuildRequires: perl(Moose::Policy::FollowPBP)
+BuildRequires: perl(MooseX::FollowPBP)
 BuildRequires: perl(Scalar::Util)
 BuildRequires: perl(Template)
 BuildRequires: perl(Test::More)
 BuildRequires: perl(Test::NoWarnings)
+BuildRequires: perl(Text::CSV)
 BuildRequires: perl(Text::Wrap)
 BuildRequires: perl(version)
+
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
@@ -37,7 +40,7 @@ the complexity of using them behind an easy and intuitive API.
 %make
 
 %check
-make test
+%make test
 
 %install
 rm -rf %buildroot
@@ -54,4 +57,3 @@ rm -rf %buildroot
 %perl_vendorlib/*
 /usr/bin/csv2pdf
 /usr/bin/ltpretty
-
