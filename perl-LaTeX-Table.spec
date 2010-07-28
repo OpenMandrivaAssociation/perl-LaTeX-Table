@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Release:    %mkrel 2
 
 License:    GPL+ or Artistic
 Group:      Development/Perl
@@ -22,7 +22,6 @@ BuildRequires: perl(Test::NoWarnings)
 BuildRequires: perl(Text::CSV)
 BuildRequires: perl(Text::Wrap)
 BuildRequires: perl(version)
-BuildRequires: perl(MooseX::FollowPBP)
 
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
