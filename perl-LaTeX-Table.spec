@@ -22,6 +22,7 @@ BuildRequires: perl(Test::NoWarnings)
 BuildRequires: perl(Text::CSV)
 BuildRequires: perl(Text::Wrap)
 BuildRequires: perl(version)
+BuildRequires: perl(MooseX::FollowPBP)
 
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
