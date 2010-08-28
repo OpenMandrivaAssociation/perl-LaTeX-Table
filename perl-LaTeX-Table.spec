@@ -1,9 +1,9 @@
 %define upstream_name    LaTeX-Table
-%define upstream_version v1.0.2
+%define upstream_version v1.0.5
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 License:    GPL+ or Artistic
 Group:      Development/Perl
