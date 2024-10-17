@@ -7,7 +7,7 @@ Release:	2
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Summary:	Automatic generation of LaTeX tables
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/LaTeX/%{upstream_name}-v%{version}.tar.gz
 
 BuildRequires:	perl-devel
